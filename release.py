@@ -5,7 +5,7 @@ import tarfile
 import requests
 
 GEOIP2_DB_URL = (
-    "http://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz"
+    "https://download.maxmind.com/app/geoip_download_by_token?edition_id=GeoLite2-Country&date=20210216&suffix=tar.gz&token=v2.local.-d-riKV1RoY4C8GW92VRsI-4y08Ol3zLQd0e5MX2--Vs_YoA9agDe-OlbIFl5xuCbAEJFlQrwE9OEYjutwQAw-L9D-sVfvXukZVN0zY13L18xVGs3zypiOGGNMP099hF5IdwUhtCX0iT2FIxOoO7MhN-ouywKrwJrzxp89Dv84Yk1YLiRRCwIIIrMRYxnNldoH3lJg"
 )
 
 r = requests.get(GEOIP2_DB_URL)
