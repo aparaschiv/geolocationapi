@@ -124,9 +124,9 @@
         },
         "maxminddb": {
             "hashes": [
-                "sha256:df1451bcd848199905ac0de4631b3d02d6a655ad28ba5e5a4ca29a23358db712"
+                "sha256:47e86a084dd814fac88c99ea34ba3278a74bc9de5a25f4b815b608798747c7dc"
             ],
-            "version": "==1.4.1"
+            "version": "==2.0.3"
         },
         "pycountry": {
             "hashes": [
